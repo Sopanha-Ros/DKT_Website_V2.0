@@ -1,0 +1,282 @@
+{
+  "drone_technology": ["Drone Khmer Technology", "Drone Khmer Technology"],
+  "expert_in_spraying": [
+    "អ្នកជំនាញបាញ់ថ្នាំកសិកម្ម",
+    "Agricultural Spraying Experts"
+  ],
+  "efficiency_message_bold1": [
+    "១ហិចតាត្រឹមតែ៩នាទី",
+    "1 hectare in just 9 minutes"
+  ],
+  "efficiency_message_middle": ["ចំណេញថ្នាំនិងជីដល់ទៅ", "saving up to"],
+  "efficiency_message_bold2": ["៤០%", "40%"],
+  "efficiency_message_end": [
+    "បើប្រៀបទៅនឹងការបាញ់ថ្នាំដោយផ្ទាល់ពីកសិករ",
+    "compared to manual spraying."
+  ],
+  "read_more": ["អានបន្ថែម", "Read More"],
+  "contact_us": ["ទំនាក់ទនងពួកយើង", "Contact Us"],
+  "agriculture_experience_years": [
+    "បទពិសោធន៍លើវិស័យកសិកម្ម(ឆ្នាំ)",
+    "Years of experience in agriculture sector"
+  ],
+  "service_offices": ["បុស្តិ៍សេវា(សាខា)", "Service Offices (Branches)"],
+  "total_projects": [
+    "គម្រោងសម្រេចសរុប​(ហិចតា)",
+    "Total Completed Projects (Hectares)"
+  ],
+  "customers_using_services": [
+    "អតិថិជនជាវ & ប្រើប្រាស់សេវាកម្ម",
+    "Customers Purchased & Using Services"
+  ],
+  "home_page": ["ទំព័រដើម", "Home"],
+  "about_us": ["អំពីពួកយើង", "About Us"],
+  "services": ["សេវាកម្ម", "Services"],
+  "products": ["ផលិតផល", "Products"],
+  "new_projects": ["ថ្មីៗ", "New Projects"],
+  "contact_us": ["ទំនាក់ទំនង", "Contact Us"],
+  "about_us": ["អំពីពួកយើង", "About Us"],
+  "increase_agriculture_scope": [
+    "បង្កើនវិសាលភាពនៃវិស័យកសិកម្មជាមួយនឹងបច្ចេកវិទ្យាដ្រូន",
+    "Increase the scope of agriculture with drone technology"
+  ],
+  "drone_technology_description": [
+    "ដ្រូនបាញ់ថ្នាំកសិកម្ម គឺជាបច្ចេកវិទ្យទំនើបដែលប្រើប្រព័ន្ធបញ្ជាឆ្លាតវៃ ដើម្បីធ្វើការបាញ់ថ្នាំ ស្រោចស្រពលើដំណាំគ្រប់ប្រភេទដោយស្វ័យប្រវត្តិ ធ្វើឲ្យការងារកសិកម្មរបស់លោកអ្នកកាន់តែប្រសើរឡើង",
+    "Agricultural drone spraying technology is a modern system that uses smart control to automatically spray pesticides and fertilizers on all crops, improving your agricultural work."
+  ],
+  "benefits_of_agriculture_drones": [
+    "អត្ថប្រយោជន៍នៃដ្រូនកសិកម្ម",
+    "Benefits of Agricultural Drones"
+  ],
+  "reduce_pesticides": [
+    "កាត់បន្ថយជីថ្នាំកសិកម្ម",
+    "Reduce Agricultural Pesticides"
+  ],
+  "save_time_and_labor": ["សន្សំសំចៃពេលវេលា & ពលកម្ម", "Save Time & Labor"],
+  "reduce_health_risks": [
+    "កាត់បន្ថយហានិភ័យនៃការប៉ះពាល់ដល់សុខភាព",
+    "Reduce Health Risks"
+  ],
+  "increase_yield": ["បង្កើនលទ្ធភាពទិន្នផល", "Increase Yield"],
+  "read_more": ["អានបន្ថែម", "Read More"],
+  "our_services": ["សេវាកម្មរបស់ពួកយើង", "Our Services"],
+  "our_agriculture_solutions": [
+    "ដំណោះស្រាយរបស់ពួកយើងលើវិស័យកសិកម្ម",
+    "Our Solutions in Agriculture"
+  ],
+  "company_description": [
+    "ពួកយើងគឺក្រុមហ៊ុន Drone Khmer Technology ដែលជាក្រុមហ៊ុនឈានមុខក្នុងវិស័យ លក់ដ្រូនកសិកម្ម ក៏ដូចជាផ្ដល់នូវសេវាកម្មបាញ់ជី​ និងថ្នាំកសិកម្ម",
+    "We are Drone Khmer Technology, a leading company in the agricultural drone sales industry and also providing spraying services and fertilizers for agriculture."
+  ],
+  "read_more": ["អានបន្ថែម", "Read More"],
+  "sell_agriculture_drones": ["លក់ដ្រូនកសិកម្ម", "Agricultural Drone Sales"],
+  "agriculture_drones": [
+    "ដ្រូនកសិកម្ម​ ២៥, ៤០​ និង ៥០លីត្រ",
+    "Agricultural Drones: 25L, 40L, and 50L"
+  ],
+  "spraying_services": [
+    "បាញ់ជី និងថ្នាំលើដំណាំគ្រប់ប្រភេទ",
+    "Spraying Fertilizers and Pesticides on All Crops"
+  ],
+  "spraying_service_description": [
+    "សេវាកម្មបាញ់ជី និងថ្នាំដោយប្រើដ្រូន និងកញ្ចប់សេវាកម្មថែទាំដំណាំចាប់តាំងពីចេញផ្ការហូតដល់ប្រមូលផល",
+    "We offer spraying services for fertilizers and pesticides using drones, along with a full crop care service package from planting to harvesting."
+  ],
+  "supply_spare_parts": ["ផ្គត់ផ្គង់គ្រឿងបន្លាស់", "Supply of Spare Parts"],
+  "spare_parts_description": [
+    "ផ្គត់ផ្គង់គ្រឿងបន្លាស់ដ្រូន៖ ថ្ម តេលេ​ ឆ្នាំងសាក ក្បាលបាញ់ជីថ្នាំ -ល-",
+    "Supply of drone spare parts: Batteries, chargers, spray nozzles, etc."
+  ],
+  "drone_repair": [
+    "ជួសជុលដ្រូន និងគ្រឿងបន្លាស់",
+    "Drone and Spare Parts Repair"
+  ],
+  "drone_repair_description": [
+    "វិស្វករជំនាញក្នុងវិស័យកសិកម្ម និងបច្ចេកវិទ្យាដ្រូន",
+    "Expert engineers in agriculture and drone technology"
+  ],
+  "why_choose_us": ["ហេតុអ្វីជ្រើសរើសពួកយើង", "Why Choose Us"],
+  "we_are_experts_in_agriculture": [
+    "ពួកយើងគឺជាអ្នកជំនាញក្នុងវិស័យកសិកម្ម",
+    "We are experts in agriculture"
+  ],
+  "work_with_farmers": [
+    "ពួកយើងធ្វើការដោយផ្ទាល់ជាមួយកសិករ ក៏ដូចជាកាន់នូវគម្រោងរាប់រយហិចតាជាច្រើនកន្លែងខេត្តក្រុងក្នុងប្រទេសកម្ពុជា",
+    "We work directly with farmers and manage hundreds of hectares in various provinces and cities across Cambodia."
+  ],
+  "experience_in_caring_for_crops": [
+    "បទពិសោធន៍ផ្ទាល់លើការថែទាំគ្រប់ប្រភេទដំណាំ",
+    "Hands-on experience in caring for all types of crops"
+  ],
+  "reduce_cost_increase_yield": [
+    "កាត់បន្ថយថ្លៃដើម បង្កើនទិន្នផល​ ជួយកសិកររកចំណូលកាន់តែប្រសើរ",
+    "Reduce costs, increase yield, and help farmers earn better incomes"
+  ],
+  "provide_trust_and_quality": [
+    "ផ្ដល់នូវទំនុកចិត្ត និងគុណភាព",
+    "Provide trust and quality"
+  ],
+  "our_clients": ["អតិថិជនរបស់ពួកយើង", "Our Clients"],
+  "completed_projects": [
+    "គម្រោងសម្រេចសរុប(ហិចតា)",
+    "Total Completed Projects (Hectares)"
+  ],
+  "latest": ["Latest", "ថ្មីៗ"],
+  "interviews_with_farmers_and_owners": [
+    "កិច្ចសម្ភាសន៍ផ្ទាល់ជាមួយកសិករ និងម្ចាស់កសិដ្ឆាននានា",
+    "Interviews with Farmers and Owners"
+  ],
+  "rice_crops": ["ដំណាំស្រូវ", "Rice Crops"],
+  "mango_crops": ["ដំណាំស្វាយ", "Mango Crops"],
+  "khun_kouch_name": ["លោក ខឿន ខួច", "Mr. Khoeun Khouch"],
+  "kun_valak_name": ["អ្នកស្រី គុណ វល័ក្ខ", "Mrs. Kun Volak"],
+  "putnuen_name": ["លោក ពុតនឿន", "Mr. Put Noeun"],
+
+  "drone_success_message_1": [
+    "ប្រើដ្រូនកសិកម្ម ចំណេញពេលវេលា ថវិកា និងបានទិន្នផលខ្ពស់",
+    "Uses agricultural drones, saving time, budget, and achieving higher yields."
+  ],
+  "drone_success_message_2": [
+    "ប្រើប្រាស់ដ្រូនកសិកម្ម ទិន្នផលស្វាយកើនឡើងបាន៤០ភាគរយក្នុងមួយឆ្នាំ",
+    "Uses agricultural drones, increasing papaya yields by 40% in one year."
+  ],
+  "drone_success_message_3": [
+    "ដំណាំស្វាយ៥០០០ដើម កម្មករ២នាក់ បាញ់ជីថ្នាំដោយដ្រូនត្រឹម១ទៅ២ថ្ងៃ",
+    "With 5000 papaya trees and 2 workers, sprays fertilizers using drones in just 1 to 2 days."
+  ],
+  "faqs": ["សំណួរញឹកញាប់", "Frequently Asked Questions"],
+  "question_1": [
+    "តើដ្រូនបាញ់ថ្នាំកសិកម្មមានអត្ថប្រយោជន៍អ្វីខ្លះ?",
+    "What are the benefits of using agricultural drones?"
+  ],
+  "answer_1": [
+    "ដ្រូនបាញ់ថ្នាំអាចជួយកាត់បន្ថយការចំណាយដៃគូ, បង្រួបបង្រួមពេលវេលាបាញ់ថ្នាំ, និងធ្វើឲ្យការបាញ់ថ្នាំកសិកម្មមានប្រសិទ្ធិភាពខ្ពស់ជាងមុន",
+    "Agricultural drones help reduce partner costs, save spraying time, and increase spraying efficiency."
+  ],
+  "question_2": [
+    "តើអាចប្រើដ្រូនបាញ់ថ្នាំលើដំណាំប្រភេទណាបានខ្លះ?",
+    "Which types of crops can agricultural drones be used on?"
+  ],
+  "answer_2": [
+    "យើងអាចប្រើដ្រូនបាញ់ថ្នាំលើដំណាំជាច្រើនប្រភេទដូចជា: អង្ករ, ពោត, ម្ទេស, ខ្ទឹមស, និងដំណាំផ្សេងៗទៀត។",
+    "Drones can be used to spray a variety of crops such as rice, corn, chili, garlic, and others."
+  ],
+  "question_3": [
+    "តើអាចជួយជួសជុលឬផ្លាស់ប្តូរសម្ភារៈដ្រូនបានទេ?",
+    "Can drones be repaired or have their parts replaced?"
+  ],
+  "answer_3": [
+    "បាទ/ចាស! យើងមានសេវាជួសជុល និងផ្តល់ផ្នែកបន្លាស់សម្រាប់ដ្រូនគ្រប់ប្រភេទ។",
+    "Yes! We offer repair services and provide replacement parts for all types of drones."
+  ],
+  "question_4": [
+    "តើដ្រូនបាញ់ថ្នាំអាចគ្របដណ្ដប់ផ្ទៃដីប៉ុន្មានហិកតា?",
+    "How many hectares can a drone cover when spraying?"
+  ],
+  "answer_4": [
+    "ដ្រូនមួយគ្រឿងអាចបាញ់ថ្នាំបានចន្លោះពី ១៥-៣០ ហិកតា ក្នុងមួយថ្ងៃ អាស្រ័យលើប្រភេទដំណាំ និងលក្ខណៈភូមិសាស្ត្រ។",
+    "A single drone can spray between 15-30 hectares per day, depending on the crop type and geographic conditions."
+  ],
+  "question_5": ["តើមានការធានាដ្រូនទេ?", "Is there a warranty for the drones?"],
+  "answer_5": [
+    "បាទ/ចាស! យើងផ្តល់ការធានា ១ឆ្នាំសម្រាប់ដ្រូន និងសម្ភារៈផ្សេងៗ។",
+    "Yes! We provide a 1-year warranty for drones and other parts."
+  ],
+  "question_6": [
+    "តើអាចប្រើដ្រូនក្នុងរដូវវស្សាបានទេ?",
+    "Can drones be used during the rainy season?"
+  ],
+  "answer_6": [
+    "បាន។ ដ្រូនរបស់យើងមានភាពធន់នឹងទឹកភ្លៀងស្រាល ប៉ុន្តែសូមជៀសវាងការប្រើប្រាស់ពេលមានភ្លៀងខ្លាំង។",
+    "Yes, our drones are resistant to light rain, but avoid use during heavy rainfall."
+  ],
+  "question_7": ["តើអាចបញ្ជាទិញដ្រូនដោយរបៀបណា?", "How can I order a drone?"],
+  "answer_7": [
+    "អ្នកអាចទាក់ទងក្រុមការងារយើងតាមរយៈលេខទូរស័ព្ទ ឬបណ្តាញសង្គម ដើម្បីធ្វើការកម្មង់។",
+    "You can contact our team via phone or social media to place an order."
+  ],
+  "question_8": [
+    "តើមានសេវាបាញ់ថ្នាំជំនួយឬទេ?",
+    "Is there a spraying service available?"
+  ],
+  "answer_8": [
+    "បាទ/ចាស! យើងមានសេវាបាញ់ថ្នាំដំណាំពីដ្រូនជំនាញដោយអ្នកជំនាញ។",
+    "Yes! We offer professional drone spraying services for crops."
+  ],
+  "testimonial_button": ["មតិអតិថិជនពួកយើង", "Testimonial"],
+  "title": ["កសិករពិត លទ្ធផលពិត!", "Real Farmers, Real Results!"],
+  "description": [
+    "ស្តាប់អំពីមតិយោបលរបស់កសិករ\nក្រោយពេលប្រើប្រាស់ដ្រូនកសិកម្មបានយ៉ាងជោគជ័យលើកសិដ្ឋានរបស់ពួកគាត់",
+    "Listen to the testimonials of farmers after successfully using agricultural drones on their farms."
+  ],
+  "read_more": ["អានបន្ថែម", "Read More"],
+  "testimonial_1": [
+    "ប្រើដ្រូនកសិកម្ម ចំណេញពេលវេលា ថវិកា និងបានទិន្នផលខ្ពស់",
+    "Using agricultural drones saves time, costs, and yields higher results."
+  ],
+  "farmer_1_name": ["លោក ខឿន ខួច", "Mr. Khun Khouch"],
+  "farmer_1_farm": [
+    "ម្ចាស់កសិដ្ឋាន ដំណាំស្រូវកំពង់ធំ",
+    "Owner of the Rice Farm in Kampong Thom"
+  ],
+  "testimonial_2": [
+    "ប្រើប្រាស់ដ្រូនកសិកម្ម\nទិន្នផលស្វាយកើនឡើងបាន៤០ភាគរយក្នុងមួយឆ្នាំ",
+    "Using agricultural drones increased the mango yield by 40% in one year."
+  ],
+  "farmer_2_name": ["អ្នកស្រី គុណ វល័ក្ខ", "Ms. Kun Voleak"],
+  "farmer_2_farm": [
+    "ម្ចាស់កសិដ្ឋាន ដំណាំស្វាយកំពង់ស្ពី",
+    "Owner of the Mango Farm in Kampong Speu"
+  ],
+  "testimonial_3": [
+    "ដំណាំស្វាយ៥០០០ដើម កម្មករ២នាក់ បាញ់ជីថ្នាំដោយដ្រូនត្រឹម១ទៅ២ថ្ងៃ",
+    "5000 mango trees, 2 workers, spraying pesticide with a drone in just 1 to 2 days."
+  ],
+  "farmer_3_name": ["លោក ពុតនឿន", "Mr. Put Noun"],
+  "farmer_3_farm": [
+    "ម្ចាស់កសិដ្ឋាន ដំណាំស្វាយចម្ការសែនមនោរម្យ",
+    "Owner of the Mango Farm in Sen Monorom"
+  ],
+  "contact_us_button": ["Contact Us", "Contact Us"],
+  "contact_us_title": ["ទំនាក់ទំនងដោយផ្ទាល់", "Contact Us Directly"],
+  "headquarters_title": ["ទីស្នាក់ការកណ្ដាល", "Headquarters"],
+  "headquarters_address": [
+    "ផ្លូវD ផ្ទះលេខ១៦៨/១៧០​ បុរីពិភពថ្មីឈូកមាស សង្កាត់ក្រាំងធ្នង់\nខណ្ឌសែនសុខ រាជធានីភ្នំពេញ",
+    "Street D, No. 168/170, Borey Pipop Thmey Chhuk Meas, Krang Thnong Commune, Sen Sok District, Phnom Penh"
+  ],
+  "call_us_title": ["លេខទូរស័ព្ទ", "Phone Number"],
+  "email_us_title": ["អ៊ីម៉ែល", "Email"],
+  "company_name": ["ដ្រូនខ្មែរតិចណូឡូជី", "Drone Khmer Technology"],
+  "company_description": [
+    "ក្រុមហ៊ុនឈានមុខក្នុងវិស័យ លក់ដ្រូនកសិកម្ម ក៏ដូចជាផ្ដល់នូវសេវាកម្មបាញ់ជី​ និងថ្នាំកសិកម្មដល់ទីតាំងផ្ទាល់របស់លោកអ្នក",
+    "A leading company in the field of agricultural drone sales, also providing crop spraying services and agricultural chemicals to your location."
+  ],
+  "contact_us_title": ["ទាក់ទងមកពួកយើង", "Contact Us"],
+  "contact_address": [
+    "ផ្លូវD ផ្ទះលេខ១៦៨/១៧០​ បុរីពិភពថ្មីឈូកមាស សង្កាត់ក្រាំងធ្នង់\nខណ្ឌសែនសុខ រាជធានីភ្នំពេញ",
+    "Street D, No. 168/170, Borey Pipop Thmey Chhuk Meas, Krang Thnong Commune, Sen Sok District, Phnom Penh"
+  ],
+  "quick_links_title": ["តំណភ្ជាប់", "Quick Links"],
+  "home_page": ["ទំព័រដើម", "Home Page"],
+  "about_us": ["អំពីពួកយើង", "About Us"],
+  "services": ["សេវាកម្ម", "Services"],
+  "activities": ["សកម្មភាព", "Activities"],
+  "contact_us": ["ទំនាក់ទំនងពួកយើង", "Contact Us"],
+  "our_services_title": ["សេវាកម្មរបស់ពួកយើង", "Our Services"],
+  "drone_sales": ["លក់ដ្រូនកសិកម្ម", "Agricultural Drone Sales"],
+  "spare_parts": ["ផ្គត់ផ្គង់គ្រឿងបន្លាស់", "Spare Parts Supply"],
+  "pest_control": [
+    "បាញ់ជី និងថ្នាំលើដំណាំគ្រប់ប្រភេទ",
+    "Pest and Chemical Spraying on All Crops"
+  ],
+  "drone_repair": ["ជួសជុលដ្រូន &គ្រឿងបន្លាស់", "Drone & Spare Parts Repair"],
+  "home_page_footer": ["ទំព័រដើម", "Home"],
+  "location": ["ទីតាំង", "Location"],
+  "contact_us_footer": ["ទំនាក់ទំនង", "Contact"],
+  "faq": ["សំណួរញឹកញាប់", "FAQ"],
+  "interviews_with_farmers": [
+    "កិច្ចសម្ភាសន៍ជាមួយកសិករ",
+    "Interviews with Farmers"
+  ],
+  "agri_drone":["ដ្រូនកសិកម្ម","Agri-Drone"]
+}

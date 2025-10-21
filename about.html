@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DKT - Drone Khmer Technology</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/Favicon.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Khmer Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <section class="container-fluid sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="index.html" class="navbar-brand">
+            <!-- <h2 class="text-white">DKT<span class="text-dark"></span></h2> -->
+            <img class="main_logo" src="img/Main_site_logo.png" alt="logo" />
+            <!-- <img src="img/" alt="company_name" /> -->
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler ms-auto me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a
+                href="index.html"
+                class="nav-item nav-link active"
+                data-translate="home_page"
+                >ទំព័រដើម</a
+              >
+              <a
+                href="about.html"
+                class="nav-item nav-link"
+                data-translate="about_us"
+                >អំពីពួកយើង</a
+              >
+              <a
+                href="service.html"
+                class="nav-item nav-link"
+                data-translate="services"
+                >សេវាកម្ម</a
+              >
+              <a
+                href="product.html"
+                class="nav-item nav-link"
+                data-translate="products"
+                >ផលិតផល</a
+              >
+              <a
+                href="project.html"
+                class="nav-item nav-link"
+                data-translate="new_projects"
+                >ថ្មីៗ</a
+              >
+              <a
+                href="contact.html"
+                class="nav-item nav-link"
+                data-translate="contact_us"
+                >ទំនាក់ទំនង</a
+              >
+
+              <div class="language-switcher nav-item nav-link">
+                <button
+                  class="btn-lang"
+                  id="langDropdown"
+                  onclick="toggleDropdown()"
+                >
+                  <img class="flag" src="img/kh_flag.png" alt="Khmer" />
+                </button>
+                <div id="dropdownContent" class="dropdown-content">
+                  <a href="#" onclick="switchLanguage('en')">
+                    <img class="flag" src="img/usa_flag.png" alt="English" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <butaton
+              type="button"
+              class="btn text-white p-0 d-none d-lg-block"
+              data-bs-toggle="modal"
+              data-bs-target="#searchModal"
+              ><i class="fa fa-search"></i
+            ></butaton> -->
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary hero-banner">
+      <div
+        class="container banner-breadcrumb d-flex flex-column align-items-start justify-content-center p-3"
+      >
+        <h3 class="display-4 text-white animated slideInRight" data-translate="about_us">អំពីពួកយើង</h3>
+        <nav aria-label="breadcrumb">
+          <ol
+            class="breadcrumb justify-content-center justify-content-lg-start mb-0"
+          >
+            <li class="breadcrumb-item">
+              <a class="text-white" href="index.html" data-translate="home_page">ទំព័រដើម</a>
+            </li>
+            <li class="text-white breadcrumb-item" aria-current="page" data-translate="about_us">
+              អំពីពួកយើង
+            </li>
+          </ol>
+        </nav>
+      </div>  
+    </div>
+    <!-- Hero End -->
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(20, 24, 62, 0.7)">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn btn-square bg-white btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group" style="max-width: 600px">
+              <input
+                type="text"
+                class="form-control bg-transparent border-light p-3"
+                placeholder="Type search keyword"
+              />
+              <button class="btn btn-light px-4">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- About Start -->
+    <section id="about_section" class="container-fluid py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="about-img">
+              <img class="img-fluid" src="img/drone2.jpg" />
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <div
+              class="btn btn-sm border rounded-pill text-primary px-3 mb-3"
+              data-translate="about_us"
+            >
+              អំពី​ពួក​យើង
+            </div>
+            <h1 class="mb-4" data-translate="increase_agriculture_scope">
+              បង្កើនវិសាលភាពនៃវិស័យកសិកម្មជាមួយនឹងបច្ចេកវិទ្យាដ្រូន
+            </h1>
+            <p class="mb-4" data-translate="drone_technology_description">
+              ​ដ្រូនបាញ់ថ្នាំកសិកម្ម
+              គឺជាបច្ចេកវិទ្យទំនើបដែលប្រើប្រព័ន្ធបញ្ជាឆ្លាតវៃ
+              ដើម្បីធ្វើការបាញ់ថ្នាំ ស្រោចស្រពលើដំណាំគ្រប់ប្រភេទដោយស្វ័យប្រវត្តិ
+              ធ្វើឲ្យការងារកសិកម្មរបស់លោកអ្នកកាន់តែប្រសើរឡើង
+            </p>
+            <h4 class="mb-4" data-translate="benefits_of_agriculture_drones">
+              អត្ថប្រយោជន៍នៃដ្រូនកសិកម្ម
+            </h4>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <h6 class="mb-3" data-translate="reduce_pesticides">
+                  <i class="fa fa-check text-primary me-2"></i
+                  >កាត់បន្ថយជីថ្នាំកសិកម្ម
+                </h6>
+                <h6 class="mb-0" data-translate="save_time_and_labor">
+                  <i class="fa fa-check text-primary me-2"></i>សន្សំសំចៃពេលវេលា
+                  & ពលកម្ម
+                </h6>
+              </div>
+              <div class="col-sm-6">
+                <h6 class="mb-3" data-translate="reduce_health_risks">
+                  <i class="fa fa-check text-primary me-2"></i
+                  >កាត់បន្ថយហានិភ័យនៃការប៉ះពាល់ដល់សុខភាព
+                </h6>
+                <h6 class="mb-0" data-translate="increase_yield">
+                  <i class="fa fa-check text-primary me-2"></i
+                  >បង្កើនលទ្ធភាពទិន្នផល
+                </h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-4">
+              <a
+                class="btn btn-primary rounded-pill px-4 me-3"
+                href="#feature_section"
+                data-translate="read_more"
+                >អានបន្ថែម</a
+              >
+              <a class="btn btn-outline-primary btn-square me-3" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-primary btn-square me-3" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-primary btn-square me-3" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-primary btn-square" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Feature Start -->
+    <div id="feature_section" class="container-fluid bg-primary feature pt-5">
+      <div class="container pt-5">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <div
+              class="btn btn-sm border rounded-pill text-white px-3 mb-3"
+              data-translate="why_choose_us"
+            >
+              ហេតុអ្វីជ្រើសរើសពួកយើង
+            </div>
+            <h1
+              class="text-white mb-4"
+              data-translate="we_are_experts_in_agriculture"
+            >
+              ពួកយើងគឺជាអ្នកជំនាញក្នុងវិស័យកសិកម្ម
+            </h1>
+            <p class="text-light mb-4" data-translate="work_with_farmers">
+              ពួកយើងធ្វើការដោយផ្ទាល់ជាមួយកសិករ
+              ក៏ដូចជាកាន់នូវគម្រោងរាប់រយហិចតាជាច្រើនកន្លែងខេត្តក្រុងក្នុងប្រទេសកម្ពុជា
+            </p>
+            <div class="d-flex align-items-center text-white mb-3">
+              <div
+                class="btn-sm-square bg-white text-primary rounded-circle me-3"
+              >
+                <i class="fa fa-check"></i>
+              </div>
+              <span data-translate="experience_in_caring_for_crops"
+                >បទពិសោធន៍ផ្ទាល់លើការថែទាំគ្រប់ប្រភេទដំណាំ</span
+              >
+            </div>
+            <div class="d-flex align-items-center text-white mb-3">
+              <div
+                class="btn-sm-square bg-white text-primary rounded-circle me-3"
+              >
+                <i class="fa fa-check"></i>
+              </div>
+              <span data-translate="reduce_cost_increase_yield"
+                >កាត់បន្ថយថ្លៃដើម បង្កើនទិន្នផល​
+                ជួយកសិកររកចំណូលកាន់តែប្រសើរ</span
+              >
+            </div>
+            <div class="d-flex align-items-center text-white mb-3">
+              <div
+                class="btn-sm-square bg-white text-primary rounded-circle me-3"
+              >
+                <i class="fa fa-check"></i>
+              </div>
+              <span data-translate="provide_trust_and_quality"
+                >ផ្ដល់នូវទំនុកចិត្ត និងគុណភាព</span
+              >
+            </div>
+            <div class="row g-4 pt-3">
+              <div class="col-sm-6">
+                <div
+                  class="d-flex rounded p-3"
+                  style="background: rgba(256, 256, 256, 0.1)"
+                >
+                  <i class="fa fa-users fa-3x text-white"></i>
+                  <div class="ms-3">
+                    <div class="d-flex justify-content-center">
+                      <h2 class="text-white mb-0" data-toggle="counter-up">
+                        999
+                      </h2>
+                      <h2 class="text-white">+</h2>
+                    </div>
+                    <p class="text-white mb-0" data-translate="our_clients">
+                      អតិថិជនរបស់ពួកយើង
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div
+                  class="d-flex rounded p-3"
+                  style="background: rgba(256, 256, 256, 0.1)"
+                >
+                  <i class="fa fa-check fa-3x text-white"></i>
+                  <div class="ms-3">
+                    <div class="d-flex justify-content-center">
+                      <h2 class="text-white mb-0" data-toggle="counter-up">
+                        9999
+                      </h2>
+                      <h2 class="text-white">+</h2>
+                    </div>
+                    <p
+                      class="text-white mb-0"
+                      data-translate="completed_projects"
+                    >
+                      គម្រោងសម្រេចសរុប(ហិចតា)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 align-self-center text-center text-md-end wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <img
+              class="img-drone img-fluid p-5"
+              style="
+                border-radius: 50px;
+                background-color: rgba(0, 0, 0, 0.1);
+                margin-top: -50px;
+              "
+              src="img/drone3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature End -->
+
+        <!-- Testimonial Start -->
+    <div class="container-fluid py-5 bg-light">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <div
+              class="btn btn-sm border rounded-pill text-primary px-3 mb-3"
+              data-translate="testimonial_button"
+            >
+              មតិអតិថិជនពួកយើង
+            </div>
+            <h1 class="mb-4" data-translate="title">កសិករពិត លទ្ធផលពិត!</h1>
+            <p class="mb-4" data-translate="description">
+              ស្តាប់អំពីមតិយោបលរបស់កសិករ
+              ក្រោយពេលប្រើប្រាស់ដ្រូនកសិកម្មបានយ៉ាងជោគជ័យលើកសិដ្ឋានរបស់ពួកគាត់
+            </p>
+            <!-- <a
+              class="btn btn-primary rounded-pill px-4"
+              href=""
+              data-translate="read_more"
+              >អានបន្ថែម</a
+            > -->
+          </div>
+          <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+            <div
+              class="owl-carousel testimonial-carousel border-start border-primary"
+            >
+              <div class="testimonial-item ps-5">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p class="fs-4" data-translate="testimonial_1">
+                  ប្រើដ្រូនកសិកម្ម ចំណេញពេលវេលា ថវិកា និងបានទិន្នផលខ្ពស់
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded-circle"
+                    src="img/testimonal1.png"
+                    style="width: 60px; height: 60px"
+                  />
+                  <div class="ps-3">
+                    <h5 class="mb-1" data-translate="farmer_1_name">
+                      លោក ខឿន ខួច
+                    </h5>
+                    <span data-translate="farmer_1_farm"
+                      >ម្ចាស់កសិដ្ឋាន ដំណាំស្រូវកំពង់ធំ</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item ps-5">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p class="fs-4" data-translate="testimonial_2">
+                  ប្រើប្រាស់ដ្រូនកសិកម្ម
+                  ទិន្នផលស្វាយកើនឡើងបាន៤០ភាគរយក្នុងមួយឆ្នាំ
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded-circle"
+                    src="img/testimonal2.png"
+                    style="width: 60px; height: 60px"
+                  />
+                  <div class="ps-3">
+                    <h5 class="mb-1" data-translate="farmer_2_name">
+                      អ្នកស្រី គុណ វល័ក្ខ
+                    </h5>
+                    <span data-translate="farmer_2_farm"
+                      >ម្ចាស់កសិដ្ឋាន ដំណាំស្វាយកំពង់ស្ពី</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item ps-5">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p class="fs-4" data-translate="testimonial_3">
+                  ដំណាំស្វាយ៥០០០ដើម កម្មករ២នាក់ បាញ់ជីថ្នាំដោយដ្រូនត្រឹម១ទៅ២ថ្ងៃ
+                </p>
+                <div class="d-flex align-items-center">
+                  <img
+                    class="img-fluid flex-shrink-0 rounded-circle"
+                    src="img/testimonal3.png"
+                    style="width: 60px; height: 60px"
+                  />
+                  <div class="ps-3">
+                    <h5 class="mb-1" data-translate="farmer_3_name">
+                      លោក ពុតនឿន
+                    </h5>
+                    <span data-translate="farmer_3_farm"
+                      >ម្ចាស់កសិដ្ឋាន ដំណាំស្វាយចម្ការសែនមនោរម្យ</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="d-inline-block mb-3">
+              <h1 class="text-white" data-translate="company_name">
+                ដ្រូនខ្មែរតិចណូឡូជី
+              </h1>
+            </a>
+            <p class="mb-0" data-translate="company_description">
+              ក្រុមហ៊ុនឈានមុខក្នុងវិស័យ លក់ដ្រូនកសិកម្ម
+              ក៏ដូចជាផ្ដល់នូវសេវាកម្មបាញ់ជី​
+              និងថ្នាំកសិកម្មដល់ទីតាំងផ្ទាល់របស់លោកអ្នក
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+            <h5 class="text-white mb-4" data-translate="contact_us_title">
+              ទាក់ទងមកពួកយើង
+            </h5>
+            <p data-translate="contact_address">
+              <i class="fa fa-map-marker-alt me-3"></i>ផ្លូវD ផ្ទះលេខ១៦៨/១៧០​
+              បុរីពិភពថ្មីឈូកមាស សង្កាត់ក្រាំងធ្នង់<br />
+              ខណ្ឌសែនសុខ រាជធានីភ្នំពេញ
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>070 <span>8888 71</span></p>
+            <p><i class="fa fa-envelope me-3"></i>soklyleng@yahoo.com</p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social" href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social" href="">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social" href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="btn btn-outline-light btn-social" href="">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+            <h5 class="text-white mb-4" data-translate="quick_links_title">
+              តំណភ្ជាប់
+            </h5>
+            <a class="btn btn-link" href="" data-translate="home_page"
+              >ទំព័រដើម</a
+            >
+            <a class="btn btn-link" href="" data-translate="about_us"
+              >អំពីពួកយើង</a
+            >
+            <a class="btn btn-link" href="" data-translate="services"
+              >សេវាកម្ម</a
+            >
+            <a class="btn btn-link" href="" data-translate="activities"
+              >សកម្មភាព</a
+            >
+            <a class="btn btn-link" href="" data-translate="contact_us"
+              >ទំនាក់ទំនងពួកយើង</a
+            >
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+            <h5 class="text-white mb-4" data-translate="our_services_title">
+              សេវាកម្មរបស់ពួកយើង
+            </h5>
+            <a class="btn btn-link" href="" data-translate="drone_sales"
+              >លក់ដ្រូនកសិកម្ម</a
+            >
+            <a class="btn btn-link" href="" data-translate="spare_parts"
+              >ផ្គត់ផ្គង់គ្រឿងបន្លាស់</a
+            >
+            <a class="btn btn-link" href="" data-translate="pest_control"
+              >បាញ់ជី និងថ្នាំលើដំណាំគ្រប់ប្រភេទ</a
+            >
+            <a class="btn btn-link" href="" data-translate="drone_repair"
+              >ជួសជុលដ្រូន &គ្រឿងបន្លាស់</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="#"
+                >Drone Khmer Technology Co.ltd</a
+              >
+              , All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="" data-translate="home_page_footer">ទំព័រដើម</a>
+                <a href="" data-translate="location">ទីតាំង</a>
+                <a href="" data-translate="contact_us_footer">ទំនាក់ទំនង</a>
+                <a href="" data-translate="faq">សំណួរញឹកញាប់</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Team End -->
+
+    <!-- Newsletter Start -->
+    <!-- <div class="container-fluid bg-primary newsletter py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div
+            class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <img class="img-fluid" src="img/newsletter.png" alt="" />
+          </div>
+          <div
+            class="col-md-7 py-5 newsletter-text wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">
+              Newsletter
+            </div>
+            <h1 class="text-white mb-4">Let's subscribe the newsletter</h1>
+            <div class="position-relative w-100 mt-3 mb-2">
+              <input
+                class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                type="text"
+                placeholder="Enter Your Email"
+                style="height: 48px"
+              />
+              <button
+                type="button"
+                class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+              >
+                <i class="fa fa-paper-plane text-primary fs-4"></i>
+              </button>
+            </div>
+            <small class="text-white-50"
+              >Diam sed sed dolor stet amet eirmod</small
+            >
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Newsletter End -->
+
+    <!-- Footer Start -->
+    <!-- <div class="container-fluid bg-dark text-white-50 footer pt-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="d-inline-block mb-3">
+              <h1 class="text-white">ដ្រូនខ្មែរតិចណូឡូជី</h1>
+            </a>
+            <p class="mb-0">
+              ក្រុមហ៊ុនឈានមុខក្នុងវិស័យ លក់ដ្រូនកសិកម្ម
+              ក៏ដូចជាផ្ដល់នូវសេវាកម្មបាញ់ជី​
+              និងថ្នាំកសិកម្មដល់ទីតាំងផ្ទាល់របស់លោកអ្នក
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+            <h5 class="text-white mb-4">ទាក់ទងមកពួកយើង</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>ផ្លូវD ផ្ទះលេខ១៦៨/១៧០​
+              បុរីពិភពថ្មីឈូកមាស សង្កាត់ក្រាំងធ្នង់<br />
+              ខណ្ឌសែនសុខ រាជធានីភ្នំពេញ
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>070 <span>8888 71</span></p>
+            <p><i class="fa fa-envelope me-3"></i>soklyleng@yahoo.com</p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+            <h5 class="text-white mb-4">តំណភ្ជាប់</h5>
+            <a class="btn btn-link" href="">ទំព័រដើម</a>
+            <a class="btn btn-link" href="">អំពីពួកយើង</a>
+            <a class="btn btn-link" href="">សេវាកម្ម</a>
+            <a class="btn btn-link" href="">ថ្មីៗ</a>
+            <a class="btn btn-link" href="">ទំនាក់ទំនងពួកយើង</a>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+            <h5 class="text-white mb-4">សេវាកម្មរបស់ពួកយើង</h5>
+            <a class="btn btn-link" href="">លក់ដ្រូនកសិកម្ម</a>
+            <a class="btn btn-link" href="">ផ្គត់ផ្គង់គ្រឿងបន្លាស់</a>
+            <a class="btn btn-link" href=""
+              >បាញ់ជី និងថ្នាំលើដំណាំគ្រប់ប្រភេទ</a
+            >
+            <a class="btn btn-link" href="">ជួសជុលដ្រូន &គ្រឿងបន្លាស់</a>
+          </div>
+        </div>
+      </div>
+      <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="#">Drone Khmer Technology Co.ltd</a
+              >, All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">ទំព័រដើម</a>
+                <a href="">ទីតាំង</a>
+                <a href="">ទំនាក់ទំនង</a>
+                <a href="">សំណួរញឹកញាប់</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
